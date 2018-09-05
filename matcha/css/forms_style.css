@@ -1,0 +1,142 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	display: block;
+}
+
+#login {
+	background-image: url("../resources/sunset.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.header {
+	background-color: white;
+	opacity: 0.8;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 60px;
+	top: 0;
+	right: 0;
+	left: 0;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+.sitename {
+	font-size: 30px;
+	position: relative;
+	top: 3px;
+	margin: 10px;
+	font-style: italic;
+	color: #ae9e78;
+}
+
+.header a {
+	position: relative;
+	top: -40px;
+	text-decoration: none;
+	color: #ae9e78;;
+	float: right;
+	margin: 10px;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: white;
+	opacity: 0.8;
+	z-index: 999;
+	width: 100%;
+	height: 50px;
+	right: 0;
+	left: 0;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+.footer .copyright {
+	float: right;
+	padding-top: 3px;
+	font-size: 14px;
+	color: #ae9e78;
+	padding-right: 20px;
+	font-style: italic;
+	font-family: monospace;
+}
+
+.links {
+	text-align: center;
+}
+
+.login {
+	position: relative;
+	top: 125px;
+	padding: 20px;
+	background-color: #d7d7e0;
+	width: 400px;
+	box-sizing: border-box;
+	overflow: hidden;
+	margin: 25px auto;
+	opacity: 0.9;
+}
+
+.h {
+	text-align: center;
+	color: white;
+	background-color: #ae9e78;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="Email"] {
+	margin: 5px;
+	position: relative;
+	left: 1px;
+	width: 90%;
+	height: 20px;
+	font-size: 16px;
+	border-radius: 50px;
+	padding: 10px;
+}
+
+input[type="date"] {
+	margin: 5px;
+	position: relative;
+	left: 1px;
+	width: 60%;
+	height: 20px;
+	font-size: 16px;
+	border-radius: 50px;
+	padding: 10px;
+}
+
+select
+{
+	margin: 5px;
+	position: relative;
+	left: 1px;
+	width: 60%;
+	height: 25px;
+	font-size: 16px;
+	border-radius: 50px;
+	padding: 10px;
+}
+.submit {
+	position: relative;
+	left: 15%;
+	width: 70%;
+	height: 45px;
+	background-color: #ae9e78;
+	font-size: 17px;
+	cursor: pointer;
+	color: white;
+	cursor: pointer;
+}

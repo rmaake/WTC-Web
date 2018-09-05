@@ -1,0 +1,6 @@
+CREATE TABLE gallary (
+    `Id` INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    `Image_Name` TEXT NOT NULL,
+    `User_Id` VARCHAR(15) NOT NULL,
+    `Profile_Pic` VARCHAR(3) NOT NULL
+)

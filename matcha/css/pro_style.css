@@ -1,0 +1,302 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	display: block;
+}
+
+#login {
+	background-image: url("../resources/sunset.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#up
+{
+	margin-left: 40px;
+	background-color: #ae9e78;
+	width: 80px;
+}
+#up_i
+{
+	margin-left: 20px;
+	background-color: #ae9e78;
+	width: 150px;
+}
+#ups
+{
+	margin-left: 35px;
+}
+.login {
+	position: relative;
+	top: 30px;
+	padding: 20px;
+	background-color: #e0d7db;
+	width: 450px;
+	box-sizing: border-box;
+	margin: 25px auto;
+	opacity: 0.9;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="Email"],
+input[type="date"] {
+	margin: 5px;
+	position: relative;
+	left: 1px;
+	width: 40%;
+	height: 20px;
+	font-size: 16px;
+	padding: 10px;
+	border: 2px solid silver;
+}
+
+select {
+	margin: 5px;
+	position: relative;
+	left: 1px;
+	width: 44%;
+	height: 40px;
+	font-size: 16px;
+	border-radius: 50px;
+	padding: 10px;
+	border: 2px solid silver;
+}
+
+textarea {
+	margin: 5px;
+	position: relative;
+	left: 1px;
+	width: 90%;
+	font-size: 16px;
+	padding: 10px;
+	border: 2px solid silver;
+	resize: none;
+}
+
+.submit {
+	position: relative;
+	left: 15%;
+	width: 70%;
+	height: 45px;
+	background-color: #ae9e78;
+	font-size: 17px;
+	cursor: pointer;
+	color: white;
+	cursor: pointer;
+}
+
+.container {
+	position: absolute;
+	width: 100%;
+	height: 80%;
+}
+
+.header {
+	background-color: white;
+	opacity: 0.8;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 60px;
+	top: 0;
+	right: 0;
+	left: 0;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+.sitename {
+	font-size: 30px;
+	position: relative;
+	top: 3px;
+	margin: 10px;
+	font-style: italic;
+	color: #ae9e78;
+}
+
+.header a {
+	position: relative;
+	top: -40px;
+	text-decoration: none;
+	color: #ae9e78;;
+	float: right;
+	margin: 10px;
+}
+
+.i {
+	position: relative;
+	color: #ae9e78;
+	top: 25px;
+	font-style: italic;
+}
+#s {
+	color: #1dfa00;
+}
+.z {
+	position: relative;
+	color: #ae9e78;
+	top: -60px;
+	margin-left: 20px;
+	font-style: italic;
+}
+.h2 {
+	position: relative;
+	top: 0px;
+	color: #ae9e78;
+	text-align: center;
+	font-style: italic;
+}
+
+.h {
+	position: relative;
+	top: 50px;
+	color: #ae9e78;
+	text-align: center;
+	font-style: italic;
+}
+
+.update {
+	float: right;
+	position: relative;
+	margin: 3px;
+	background-color: #ae9e78;
+	width: 115px;
+	color: white;
+	height: 25px;
+	font-size: 13px;
+	font-weight: bolder;
+}
+
+.horizontal {
+	border: 1px solid #FFF;
+}
+
+.block {
+	display: inline-block;
+}
+
+.iframe {
+	width: 100%;
+	height: 100%;
+	
+}
+
+.like_visit {
+	margin: 10px;
+	width: 40%;
+	height: 95%;
+}
+
+.left {
+	position: relative;
+	left: 5%;
+	color: #ae9e78;
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.right {
+	position: relative;
+	left: 30%;
+	color: #ae9e78;
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.pro_pic {
+	margin: 0 auto;
+	position: relative;
+	top: 5px;
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+}
+
+.pic {
+	margin: 5px;
+	position: relative;
+	top: -10px;
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+}
+
+.chgphoto {
+	margin: 10px;
+	background-color: #ae9e78;
+	color: white;
+	height: 25px;
+}
+
+.button {
+	text-align: center;
+}
+
+.personal {
+	margin: 10px;
+	position: relative;
+	top: 5px;
+	width: 300px;
+	height: 190px;
+	opacity: 0.8;
+}
+
+.slideshow-container {
+	margin: 10px; 
+	position: relative;
+	top: 5px;
+	width: 300px;
+	height: 215px;
+}
+
+iframe {
+	border: 0px;
+}
+
+.bio {
+	margin: 10px;
+	border-color: #333;
+	position: relative;
+	top: 10px;
+	width: 500px;
+	height: 200px;
+	opacity: 0.8;
+}
+
+.interest {
+	margin: 10px;
+	position: relative;
+	top: -8px;
+	width: 500px;
+	height: 190px;
+	opacity: 0.8;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: white;
+	opacity: 0.8;
+	z-index: 999;
+	width: 100%;
+	height: 50px;
+	right: 0;
+	left: 0;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+.footer .copyright {
+	float: right;
+	padding-top: 3px;
+	font-size: 14px;
+	color: #ae9e78;
+	padding-right: 20px;
+	font-style: italic;
+	font-family: monospace;
+}

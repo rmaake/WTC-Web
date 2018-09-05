@@ -1,0 +1,174 @@
+html, body {
+	background-image: url("../resources/sunset.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+.header {
+	background-color: white;
+	opacity: 0.8;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 60px;
+	top: 0;
+	right: 0;
+	left: 0;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+.container {
+	position: absolute;
+	top: 60px;
+	width: 100%;
+	height: 90%;
+}
+
+.header a {
+	position: relative;
+	top: -40px;
+	text-decoration: none;
+	color: #ae9e78;
+	float: right;
+	margin: 10px;
+}
+
+.box {
+	position: relative;
+	top: 55px;
+	left: 5px;
+	width: 600px;
+	resize: none;
+	height: 50px;
+	border-radius: 10px;
+}
+
+.button {
+	position: relative;
+	top: 50px;
+	left: 10px;
+	width: 100px;
+	height: 25px;
+	border-radius: 10px;
+}
+
+.h {
+	color: #ae9e78;
+	text-align: center;
+	font-style: italic;
+}
+
+.sitename {
+	font-size: 30px;
+	position: relative;
+	top: 3px;
+	margin: 10px;
+	font-style: italic;
+	color: #ae9e78;
+}
+
+.side {
+	position: absolute;
+	top: 30px;
+	left: 750px;
+	width: 200px;
+	height: 80%;
+	border: none;
+	background-color: rebeccapurple;
+}
+
+.talk {
+	position: absolute;
+	top: 30px;
+	left: 5px;
+	width: 730px;
+	height: 80%;
+	background-color: rebeccapurple;
+	overflow: auto;
+}
+
+.frame {
+	display: inline-block;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: white;
+	opacity: 0.8;
+	z-index: 999;
+	width: 100%;
+	height: 50px;
+	right: 0;
+	left: 0;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+.footer .copyright {
+	float: right;
+	padding-top: 3px;
+	font-size: 14px;
+	color: #ae9e78;
+	padding-right: 20px;
+	font-style: italic;
+	font-family: monospace;
+}
+
+.user {
+	font-size: 30px;
+	position: fixed;
+	height: 80px;
+	width: 728px;
+	opacity: 0.8;
+	font-style: italic;
+	background-color: white;
+	color: #ae9e78;
+	z-index: 999;
+}
+.pro_pic {
+	position: relative;
+    left: 4px;
+    top:0;
+    width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+#frm{
+	position: absolute;
+	bottom: 15%;
+}
+.lab{
+    position: relative;
+    top: -30px;
+    left:5px;
+}
+
+.txt{
+	position: relative;
+	width: 75%;
+	margin-right: 15px;
+	border-radius: 15px;
+	padding: 3px;
+	background-color: yellow;
+	float: right;
+
+}
+.txts{
+	width: 75%;
+	margin-left: 5px;
+	border-radius: 15px;
+	padding: 3px;
+	background-color: rgb(94, 255, 0);
+	float: left;
+
+}
+
+.block
+{
+	display: inline-block;
+}

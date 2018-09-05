@@ -1,0 +1,158 @@
+html, body {
+	background-image: url("../resources/sunset.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+label{
+	color:#ae9e78;
+	font-style: italic;
+}
+.rh {
+		top: -20px;
+		position: relative;
+		color: #ae9e78;
+		text-align: center;
+		font-style: italic;
+	}
+
+.login {
+	position: absolute;
+	top: 10%;
+	padding: 20px;
+	width: 370px;
+	height: 540px;
+	box-sizing: border-box;
+	overflow: hidden;
+	margin: 25px auto;
+	opacity: 0.8;
+}
+
+.filt {
+	position: absolute;
+	top: 50%;
+	padding: 20px;
+	width: 370px;
+	height: 320px;
+	box-sizing: border-box;
+	overflow: hidden;
+	margin: 25px auto;
+	opacity: 0.8;
+}
+select {
+	margin: 5px;
+	position: relative;
+	left: 1px;
+	width: 35%;
+	height: 30px;
+	font-size: 16px;
+	border-radius: 50px;
+	padding: 10px;
+	border: 2px solid silver;
+}
+
+input[type="text"]{
+	margin: 5px;
+	position: relative;
+	left: 1px;
+	width: 10%;
+	height: 5px;
+	font-size: 16px;
+	padding: 10px;
+	border: 2px solid silver;
+}
+
+.submit {
+	position: relative;
+	left: 8%;
+	width: 70%;
+	height: 45px;
+	background-color: #ae9e78;
+	font-size: 17px;
+	cursor: pointer;
+	color: white;
+	cursor: pointer;
+}
+
+.container {
+	position: absolute;
+	width: 100%;
+	height: 85%;
+}
+
+.header {
+	background-color: white;
+	opacity: 0.8;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 60px;
+	top: 0;
+	right: 0;
+	left: 0;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+iframe{
+	margin-left: 25%;
+	width: 50%;
+	height: 90%;
+	border: none;
+	text-align: center;
+	overflow-y: auto;
+}
+
+.h {
+	position: relative;
+	top: 50px;
+	color: #ae9e78;
+	text-align: center;
+	font-style: italic;
+}
+
+.sitename {
+	font-size: 30px;
+	position: relative;
+	top: 3px;
+	margin: 10px;
+	font-style: italic;
+	color: #ae9e78;
+}
+
+.head {
+	position: relative;
+	top: -40px;
+	text-decoration: none;
+	color: #ae9e78;
+	float: right;
+	margin: 10px;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: white;
+	opacity: 0.8;
+	z-index: 999;
+	width: 100%;
+	height: 50px;
+	right: 0;
+	left: 0;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+textarea{
+	resize: none;
+}
+.footer .copyright {
+	float: right;
+	padding-top: 3px;
+	font-size: 14px;
+	color: #ae9e78;
+	padding-right: 20px;
+	font-style: italic;
+	font-family: monospace;
+}

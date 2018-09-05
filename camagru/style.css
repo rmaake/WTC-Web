@@ -1,0 +1,161 @@
+html, body {
+	background-image: url("./resources/greenrobo.jpeg");
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sec_h {
+	text-align: center;
+	color: white;
+	background-color: #0e6b4f;
+}
+
+label {
+	text-align: center;
+	font-size: 15px;
+	font-style: italic;
+}
+
+.container {
+	margin: 0 auto;
+	width: 90%;
+	height: 80%;
+}
+
+.but {
+    position: relative;
+	left: 24%;
+	background-color: #0baaaa;
+	margin: 0 auto;
+	width: 15%;
+}
+.buts {
+	float: right;
+	position: relative;
+	left: -40%;
+	background-color: #0baaaa;
+	margin: 0 auto;
+	width: 15%;
+}
+
+.container img {
+	margin: 3px;
+	width: 23%;
+	height: 20%;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="Email"] {
+	margin: 5px;
+	position: relative;
+	left: 1px;
+	width: 90%;
+	height: 25px;
+	font-size: 16px;
+	border-radius: 50px;
+	padding: 10px;
+}
+
+.log {
+	position: relative;
+	left: 15%;
+	width: 70%;
+	height: 45px;
+	background-color: #0baaaa;
+	font-size: 17px;
+	color: white;
+	cursor: pointer;
+}
+
+.log:hover {
+	background-color: #0e6b4f;
+}
+
+.header {
+	width: 100%;
+	height: 60px;
+	background-color: #0e6b4f;
+	box-shadow: 0 5px 8px 0;
+	display: inline-block;
+	text-align: center;
+}
+
+.header a{
+	float: right;
+	padding-top: 15px;
+	padding-right: 20px;
+	color: #fff;
+}
+
+.login {
+	padding: 20px;
+	background-color: #d7d7e0;
+	width: 400px;
+	box-sizing: border-box;
+	overflow: hidden;
+	margin: 25px auto;
+}
+
+.login form .links
+{
+	text-align: center;
+	color: #fff;
+}
+
+
+
+.footer {
+	width: 100%;
+	height: 40px;
+	background-color: #0e6b4f;
+	box-shadow: 0 8px 5px 0;
+}
+
+.footer .copyright {
+	float: right;
+	padding-top: 3px;
+	font-size: 14;
+	color: white;
+	padding-right: 20px;
+	font-style: italic;
+	font-family: monospace;
+}
+div .cama {
+	display: inline-block;
+	line-height: 0px;
+	color: white;
+}
+
+div .logout {
+	float: right;
+	line-height: 50px;
+}
+.all{
+	background-color: rebeccapurple;
+	width: 50px;
+	height: 20px;
+	margin-left: 22%;
+	margin-top: -7%;
+	float: left;
+	position: absolute;
+	display: none;
+}
+.try {
+    position: absolute;
+	left: 24%;
+	background-color: #0baaaa;
+	margin-top: 0px;
+	width: 15%;
+}
+.trys {
+	float: right;
+	position: relative;
+	left: -40%;
+	background-color: #0baaaa;
+	margin-top: 0px;
+	width: 15%;
+}

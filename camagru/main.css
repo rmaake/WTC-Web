@@ -1,0 +1,180 @@
+html, body {
+	background-image: url("./resources/greenbox.jpeg");
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#supImage {
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: black;
+	z-index: 1;
+}
+#video{
+	z-index: 1;
+}
+.myimg
+{
+	width: 10%;
+	height: 20%;
+}
+
+.pose
+{
+	width: 8%;
+	height: 100%;
+}
+.container {
+	/*width: 50vh;*/
+	height: 80vh;
+}
+
+.booth{
+	/*display: inline-block;*/
+	margin: 10px;
+	width: 45%;
+	float: left;
+	position: relative;
+	/*top: -70px;*/
+}
+
+.booth-capture-buton {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+#canvas {
+    display: none;
+}
+
+.capture input {
+	background-color: #0baaaa;
+	width: 49%;
+	margin: 10px;
+}
+
+.capture input:hover {
+	background-color: #0e6b4f;
+}
+
+.right {
+	width: 45%;
+	float: left;
+	margin-right: 20px;
+	margin-left: 20px;
+	position: relative;
+}
+.rght {
+	width: 30%;
+	height: 20%;
+	float: right;
+	position: relative;
+}
+.lft{
+	background-color: rebeccapurple;
+	width: 45px;
+	height: 20px;
+	margin-left: -20%;
+	float: left;
+	position: relative;
+}
+.rgt{
+	background-color: rebeccapurple;
+	width: 45px;
+	height: 20px;
+	margin-right: 30%;
+	float: right;
+	position: relative;
+}
+.booth img{
+	display: none;
+	margin: 15px;
+	width: 30%;
+	height: 25%;
+	float: right;
+	position: relative;
+}
+
+.v_button {
+	margin: 2px;
+	width: 15%;
+	background-color: rebeccapurple;
+}
+
+.v_button:hover {
+	background-color: #8c3b8f;
+}
+.button {
+	margin: 2px;
+	width: 15%;
+	background-color: #0baaaa;
+}
+
+.button:hover {
+	background-color: #0e6b4f;
+}
+
+.upload {
+	height: 10vh;
+}
+
+.upload input[type="file"],
+.upload input[type="submit"] {
+	position: relative;
+	top: 20px;
+	right: 20px;
+	float: right;
+}
+
+div .cama {
+	display: inline-block;
+	line-height: 0px;
+	color: white;
+}
+
+div .logout {
+	float: right;
+	line-height: 50px;
+}
+.header {
+	width: 100%;
+	height: 60px;
+	background-color: #0e6b4f;
+	box-shadow: 0 5px 8px 0;
+	display: inline-block;
+	text-align: center;
+}
+
+.header a{
+	float: right;
+	padding-top: 15px;
+	padding-right: 20px;
+	color: #fff;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 5vh;
+	background-color: #0e6b4f;
+	box-shadow: 0 8px 5px 0;
+}
+
+.footer .copyright {
+	float: right;
+	padding-top: 3px;
+	font-size: 14;
+	color: white;
+	padding-right: 20px;
+	font-style: italic;
+	font-family: monospace;
+}

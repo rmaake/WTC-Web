@@ -1,0 +1,7 @@
+CREATE TABLE comments (
+    `Id` INT(11) UNSIGNED AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    `Movie_Name` VARCHAR (255) NOT NULL,
+    `Username` VARCHAR (15) NOT NULL,
+    `Comment` MEDIUMTEXT NOT NULL,
+    `reg_date` TIMESTAMP
+    )
